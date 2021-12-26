@@ -51,7 +51,7 @@ async def cb_handler(client, query):
                 ],
                 [
                     InlineKeyboardButton("Channel", url="https://t.me/Grafx_files"),
-                    InlineKeyboardButton("Group", url="https://t.me/@Grafx_Design")
+                    InlineKeyboardButton("Group", url="https://t.me/Grafx_Design")
                 ]
             ]
         )
