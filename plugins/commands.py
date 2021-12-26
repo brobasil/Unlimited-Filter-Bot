@@ -21,7 +21,7 @@ from database.filters_mdb import filter_stats
 from database.users_mdb import add_user, find_user, all_users
 
 
-@trojanz.on_message(filters.command('id') & (filters.private | filters.group))
+@Grafx_Design.on_message(filters.command('id') & (filters.private | filters.group))
 async def showid(client, message):
     chat_type = message.chat.type
 
@@ -46,7 +46,7 @@ async def showid(client, message):
         )   
 
 
-@trojanz.on_message(filters.command('info') & (filters.private | filters.group))
+@Grafx_Design.on_message(filters.command('info') & (filters.private | filters.group))
 async def showinfo(client, message):
     try:
         cmd, id = message.text.split(" ", 1)
